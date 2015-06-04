@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2730abfb1ff4f429abfe1693b22bee2f, type: 3}
+  m_Name: EditorIconSet
+  m_EditorClassIdentifier: 
+  lockOpen: {fileID: 2800000, guid: befa9d08f4de542e9b6c7906eaa82d8f, type: 3}
+  lockClosed: {fileID: 2800000, guid: 02e271b4046a44007a1fc9c363f0cf96, type: 3}
+  moveAround: {fileID: 2800000, guid: d2489138a3be94829b50499013a5e054, type: 3}
+  moveReset: {fileID: 2800000, guid: 7fd78a2e4c6d14103925d2171ba99b86, type: 3}
+  moveScale: {fileID: 2800000, guid: 4f716b732e6fa46a084d57b247d0ba02, type: 3}
+  moveScalePadding: {fileID: 2800000, guid: 9c0748837eed84676a3d7a30d8f6cf32, type: 3}
+  moveScaleWidth: {fileID: 2800000, guid: b6aa23673b64d45518532784050f9773, type: 3}
