@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: be6fac2be9cf848dbb3d24bed79e8852
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - referenceCamera: {instanceID: 0}
+  - defaultScoreFlash: {instanceID: 0}
+  - tooltips: {fileID: 4900000, guid: bb21cf57649cf4a5480e100ee1efdd32, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

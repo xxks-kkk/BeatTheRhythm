@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f55138f36c629488497b4bd79835a07e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - tooltips: {fileID: 4900000, guid: bb21cf57649cf4a5480e100ee1efdd32, type: 3}
+  - defaultScoreFlash: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
