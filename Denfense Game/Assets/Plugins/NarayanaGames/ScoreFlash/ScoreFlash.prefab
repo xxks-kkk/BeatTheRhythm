@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ScoreFlash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d404ebb642ce4a329ccd7ce3dbe2d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 342e302e30
+  tooltips: {fileID: 4900000, guid: bb21cf57649cf4a5480e100ee1efdd32, type: 3}
+  isTestAutogenerateMessages: 1
+  testMessageDelaySeconds: 3
+  includeMessageSpam: 0
+  includeVeryLongMessages: 0
+  isTestForceHighDensity: 0
+  isDesignMode: 1
+  enableDeselectHack: 0
+  designText: 596f752063616e206368616e67652074686973206d657373616765
+  isDebugMode: 0
+  currentDebugMode: 0
+  rendering: 0
+  skin: {fileID: 11400000, guid: 60e4c996b1d1c44e981ea2df9b020d34, type: 2}
+  skinHighDensity: {fileID: 11400000, guid: d32d5390811754adeacf94db1f2ba4d9, type: 2}
+  guiStyleName: 53636f7265466c617368
+  font: {fileID: 12800000, guid: 432fa758c77e24e0985f21cc94aeb628, type: 3}
+  fontHighDensity: {fileID: 12800000, guid: 83e26c181210049c6b02905b34adc24b, type: 3}
+  scoreFlashRenderer: {fileID: 11400000, guid: 03f21c6d2955e40f0ba2ef8077469d69, type: 2}
+  customParent: {fileID: 0}
+  lockScreenAlign: 0
+  screenAlign: 1
+  position: {x: 0, y: 0}
+  lockInnerAnchor: 1
+  innerAnchor: 1
+  paddingY: 30
+  minPaddingX: 20
+  maxWidth: 600
+  timeReference: 0
+  maxSimultanuousMessages: 5
+  minDistanceBetweenMessages: 10
+  spreadSpeed: 3
+  spreadImmediately: 1
+  forceOutlineOnMobile: 0
+  disableOutlines: 0
+  colorOutline:
+    r: 0
+    g: 0
+    b: 0
+    a: .800000012
+  colorSelectionMode: 0
+  colors:
+  - r: 1
+    g: 1
+    b: 0
+    a: 1
+  - r: 1
+    g: 0
+    b: 1
+    a: 1
+  - r: 0
+    g: 1
+    b: 1
+    a: 1
+  - r: 1
+    g: 0
+    b: 0
+    a: 1
+  - r: 0
+    g: 1
+    b: 0
+    a: 1
+  - r: 0
+    g: 0
+    b: 1
+    a: 1
+  alphaFadeInMultiplier: 0
+  alphaReadStartMultiplier: 1
+  alphaReadEndMultiplier: 1
+  alphaFadeOutMultiplier: 0
+  fadeInTimeSeconds: .5
+  fadeInColor:
+    r: 0
+    g: 1
+    b: .200000003
+    a: 0
+  fadeInColorCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  fadeInOffsetX: 0
+  fadeInOffsetXCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  fadeInOffsetY: -150
+  fadeInOffsetYCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .699856937
+      value: 1.03695345
+      inSlope: .00464999815
+      outSlope: .00464999815
+      tangentMode: 0
+    - time: .875241041
+      value: .964735329
+      inSlope: -.0148577811
+      outSlope: -.0148577811
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: .0186556727
+      outSlope: .0186556727
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  fadeInScale: .00100000005
+  fadeInScaleCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .631439984
+      value: 1.20292974
+      inSlope: 3.83252621
+      outSlope: 3.83252621
+      tangentMode: 0
+    - time: .883855104
+      value: .90766716
+      inSlope: .0121674566
+      outSlope: .0121674566
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: -.0144796912
+      outSlope: -.0144796912
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  readTimeSeconds: 2.5
+  readMinLengthCharsToAddTime: 40
+  readAddTimeSeconds: 2
+  readColorStart:
+    r: 1
+    g: 1
+    b: 0
+    a: 1
+  readColorCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  readColorEnd:
+    r: 1
+    g: .296188712
+    b: 0
+    a: 1
+  readVelocityXCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  readFloatRightVelocity: 0
+  readVelocityCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 4.01268148
+      outSlope: 4.01268148
+      tangentMode: 0
+    - time: .298531622
+      value: .796311319
+      inSlope: .981092453
+      outSlope: .981092453
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  readFloatUpVelocity: 30
+  readScaleCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  readScale: 1.5
+  fadeOutTimeSeconds: 3
+  fadeOutColorCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  fadeOutColor:
+    r: 0
+    g: .988211155
+    b: 1
+    a: 0
+  fadeOutVelocityXCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  fadeOutFloatRightVelocity: 0
+  fadeOutVelocityCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  fadeOutFloatUpVelocity: 120
+  fadeOutScaleCurve:
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  fadeOutScale: 2
+  fadeOutInitialRotationSpeed: 0
+  fadeOutRotationAcceleration: 10
+  ensureSingleton: 0
+  editorGUISkin: {fileID: 11400000, guid: 54f507523f7b34e6b994cbd79427bd93, type: 2}
+  editorIconSet: {fileID: 11400000, guid: f21bf79ce83c8407cb2aa1b8883d163f, type: 2}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

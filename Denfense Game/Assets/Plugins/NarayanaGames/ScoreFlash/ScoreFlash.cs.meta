@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 5d404ebb642ce4a329ccd7ce3dbe2d41
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - skin: {fileID: 11400000, guid: 60e4c996b1d1c44e981ea2df9b020d34, type: 2}
+  - skinHighDensity: {fileID: 11400000, guid: d32d5390811754adeacf94db1f2ba4d9, type: 2}
+  - font: {fileID: 12800000, guid: 13679718ed6084f7c82112d3266c8640, type: 3}
+  - fontHighDensity: {fileID: 12800000, guid: a5a039ceebcf64b1697394d77ab0730f, type: 3}
+  - scoreFlashRenderer: {fileID: 11400000, guid: 03f21c6d2955e40f0ba2ef8077469d69,
+      type: 2}
+  - customParent: {instanceID: 0}
+  - editorGUISkin: {fileID: 11400000, guid: 54f507523f7b34e6b994cbd79427bd93, type: 2}
+  - editorIconSet: {fileID: 11400000, guid: f21bf79ce83c8407cb2aa1b8883d163f, type: 2}
+  - tooltips: {fileID: 4900000, guid: bb21cf57649cf4a5480e100ee1efdd32, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
